@@ -1,3 +1,131 @@
+/* CSS that affects all pages */
+
 .General-Container {
-    background-color: #497d2c;
+  background-color: #497d2c;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+
+.Header-container {
+  width: 90%;
+  margin: 0;
+}
+
+header {}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  margin-top: -50px;
+  margin-right: 100px;
+}
+
+nav {
+  float: right;
+  padding: 10px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+}
+
+nav a {
+  color: #eaaa48;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* Index CSS */
+
+/* Store CSS */
+
+/* Cart CSS */
+
+/* AccountPage CSS */
+
+/* InfoPage CSS */
+/* Section 2  */
+.heading-One-Info {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.heading-Two-Info {
+  color: white;
+  padding-top: 20px;
+  padding-left: 170px;
+
+}
+
+/* Section 3 */
+/* .name-H {
+  color: white;
+  margin-top: 10px;
+  padding-left: 50px;
+}
+
+.name-input-info {
+  margin-top: 0px;
+  padding-left: 50px;
+}
+
+.email-H {
+  color: white;
+  margin-top: 10px;
+  padding-left: 50px;
+}
+
+.email-input-info {
+  color: white;
+  padding-left: 50px;
+} */
+
+/* loginPage CSS */
+
+/* checkoutPage css */
+
+.checkout-final {
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 65px;
+
+}
+
+.h3-check {
+  color: white;
+  margin-top: 200px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#check-but {
+  margin-bottom: 80px;
+  float: right;
+}
+
+.btn {
+  margin-right: 600px;
 }
