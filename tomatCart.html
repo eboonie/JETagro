@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JETagro</title>
+
+    <!-- Font Awesome CSS  -->
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css" />
+
+    <!-- My own CSS file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+
+<body class="General-Container">
+    <!-- Cart page -->
+    <!-- Section 1 logo & navigation bar -->
+    <header>
+        <div class="Header-container">
+            <!-- <img src="./Images/JetAgro logo .png" alt="logo" class="logo" width="280px" height="280px"> -->
+            <nav>
+                <ul>
+                    <li><img src="./Images/JetAgro logo .png" alt="logo" class="logo" width="150px" height="150px"></li>
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="./store.html">Store</a></li>
+                    <li> <a href="./InfoPage.html">Account</a></li>
+                    <li>
+                        <i class="fa fa-shopping-cart fa-2x text-light"></i>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- Section 2 Heading  -->
+    <div class="tomatoCart-Container">
+        <h1 class="tomatoCart-heading display-4">Reserve your produce</h1>
+    </div>
+
+    <!-- Section 3 Image, Price, Quantity and Total  -->
+
+    <section id="tomatoCart">
+        <div class="container">
+            <div class="align-items-center"></div>
+
+            <!-- First column -->
+            <div class="col-md-6 mt-4 text-center">
+                <img src="./Images/Tomatoes.jpg" alt="Tomatoes" width="150px" height="150px">
+                <h1 class="text-white">Tomatoes 100g</h1>
+                <h3 class="text-white" style="font-size: 16px; padding-bottom: 10px;">Please choose your quantity <br>
+                    Note that one 100g
+                    basket is equals to 10
+                    tomatoes.
+                </h3>
+            </div>
+            <!-- Second column -->
+            <div class="col-md-6 mt-4 text-center">
+                <form>
+                    <div class="form-group">
+                        <input type="number" name="" id="quantity" placeholder="Enter quantity here"
+                            class="form-control form-control-lg">
+                    </div>
+                </form>
+                <div id="subtotal" class="mt-4">
+                    <h3 class="text-white">Subtotal in Naira</h3>
+                    <div id="output" class="mt-4">
+                        <div class="card card-primary mb-2">
+                            <div class="card-block">
+                                <h5>Subtotal</h5>
+                                <div id="quantityOutput"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Section 4 continue shoping and checkout links -->
+
+    <div class="checkout-button">
+        <a href="./InfoPage.html" class=" btn btn-lg btn-warning text-white" style="margin-left: 900px;">Add to
+            cart</a>
+
+    </div>
+
+
+
+    <!-- End of cart page -->
+
+    <!-- My Javascript -->
+
+    <!-- Cart Javascript  -->
+    <script src="./js/cart.js"></script>
+
+    <!-- JQuerry Javascript  -->
+    <script src="./js/jqery.3.4.1.js"></script>
+
+    <!-- Popper Javascript  -->
+    <script src="./js/popper.js"></script>
+
+    <!-- Bootstrap Javascript  -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

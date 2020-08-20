@@ -4,15 +4,20 @@
   background-color: #497d2c;
 }
 
-/* ----------------------------------------------------------------------------- */
+.view-center {
+  min-height: 90vh;
+}
 
+/* ----------------------------------------------------------------------------- */
 
 .Header-container {
   width: 90%;
   margin: 0;
 }
 
-header {}
+header {
+  background-color: #497d2c;
+}
 
 header::after {
   content: "";
@@ -23,8 +28,11 @@ header::after {
 .logo {
   float: left;
   margin-top: -50px;
-  margin-right: 100px;
+  margin-right: 800px;
+  padding-top: 35px;
+  margin-left: 50px;
 }
+
 
 nav {
   float: right;
@@ -39,14 +47,20 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 70px;
+  margin-left: 35px;
   padding-top: 23px;
+  /* text-decoration: none; */
 }
 
 nav a {
-  color: #eaaa48;
+  color: white;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 600;
+  /* text-decoration: none; fix underline later */
+}
+
+nav ul li a {
   text-decoration: none;
 }
 
@@ -54,17 +68,82 @@ nav a:hover {
   color: white;
 }
 
-/* Index CSS */
+/* Index CSS Joy */
 
-/* Store CSS */
+/* Store CSS Torkwase */
 
-/* Cart CSS */
+.shop-container {
+  background-color: #ffcd05;
+  width: 50%;
+  margin: auto;
+  margin-top: -150px;
+}
 
-/* AccountPage CSS */
+.shop-heading {
+  color: white;
+  margin-top: 250px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 60px;
+}
 
-/* InfoPage CSS */
+.shop-head2 {
+  text-align: center;
+}
+
+/* Tomato cart CSS  */
+.tomatoCart-Container {
+  background-color: #ffcd05;
+  width: 50%;
+  margin: auto;
+  margin-top: -150px;
+}
+
+.tomatoCart-heading {
+  color: white;
+  margin-top: 250px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+/* Tatashe cart */
+.tatasheCart-Container {
+  background-color: #ffcd05;
+  width: 50%;
+  margin: auto;
+  margin-top: -150px;
+}
+
+.tatasheCart-Heading {
+  color: white;
+  margin-top: 250px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+/* Onion Cart  */
+.onionCart-Container {
+  background-color: #ffcd05;
+  width: 50%;
+  margin: auto;
+  margin-top: -150px;
+}
+
+.onionCart-Heading {
+  color: white;
+  margin-top: 250px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+/* AccountPage CSS Don't worry */
+
+/* InfoPage CSS  Ebun*/
 /* Section 2  */
-.heading-One-Info {
+/* .heading-One-Info {
   text-align: center;
   color: white;
   padding-top: 50px;
@@ -75,35 +154,119 @@ nav a:hover {
   color: white;
   padding-top: 20px;
   padding-left: 170px;
-
-}
-
-/* Section 3 */
-/* .name-H {
-  color: white;
-  margin-top: 10px;
-  padding-left: 50px;
-}
-
-.name-input-info {
-  margin-top: 0px;
-  padding-left: 50px;
-}
-
-.email-H {
-  color: white;
-  margin-top: 10px;
-  padding-left: 50px;
-}
-
-.email-input-info {
-  color: white;
-  padding-left: 50px;
 } */
 
-/* loginPage CSS */
+/* Section 3 */
 
-/* checkoutPage css */
+.head2 {
+  color: white;
+  text-align: center;
+}
+
+.head2-link {
+  color: #ffcd05;
+}
+
+.signup-form {
+  margin-top: 70px;
+  margin-left: 470px;
+  width: 40%;
+}
+
+.form-control-I {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.enter-but {
+  text-align: center;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+
+/* loginPage CSS Ebun */
+
+.heading2-container {
+  background-color: #ffcd05;
+  width: 50%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.login-heading {
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 60px;
+
+}
+
+.login-form {
+  margin-top: 70px;
+  margin-left: 470px;
+  width: 40%;
+}
+
+.form-control-l {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.login-but {
+  text-align: center;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+
+/* checkoutPage css Ebun */
+
+.headingF-container {
+  background-color: #ffcd05;
+  width: 50%;
+  margin: auto;
+  margin-top: 80px;
+}
 
 .checkout-final {
   color: white;
@@ -111,21 +274,23 @@ nav a:hover {
   text-align: center;
   font-weight: bolder;
   font-size: 65px;
-
 }
 
 .h3-check {
   color: white;
-  margin-top: 200px;
   text-align: center;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 500px;
 }
 
-#check-but {
-  margin-bottom: 80px;
-  float: right;
+.text-center {
+  align-items: center;
+  margin-top: -350px;
 }
 
-.btn {
-  margin-right: 600px;
+/* Practice section  */
+
+#fname {
+  width: 80%;
+  margin: auto;
 }

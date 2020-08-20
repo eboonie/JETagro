@@ -17,17 +17,20 @@
 </head>
 
 <body class="General-Container">
-
     <!-- Online Store Page -->
     <!-- Section one logo nav bar -->
     <header>
         <div class="Header-container">
-            <img src="./Images/JetAgro logo .png" alt="logo" class="logo" width="280px" height="280px">
+            <!-- <img src="./Images/JetAgro logo .png" alt="logo" class="logo" width="280px" height="280px"> -->
             <nav>
                 <ul>
-                    <li> <a href="#">Home</a></li>
-                    <li> <a href="#">Store</a></li>
-                    <li> <a href="#">Account</a></li>
+                    <li><img src="./Images/JetAgro logo .png" alt="logo" class="logo" width="150px" height="150px"></li>
+                    <li> <a href="./index.html">Home</a></li>
+                    <li> <a href="./store.html">Store</a></li>
+                    <li> <a href="./InfoPage.html">Account</a></li>
+                    <li>
+                        <i class="fa fa-shopping-cart fa-2x text-light"></i>
+                    </li>
                 </ul>
             </nav>
 
@@ -35,31 +38,228 @@
     </header>
 
     <!-- Section 2 Heading -->
+    <div class="shop-container">
+        <h1 class="shop-heading display-4">Shop Fresh Produce</h1>
+    </div>
+    <div class="shop-head2">
+        <h5 class="text-white"> Our company is growing and we hope to offer delivery and pre-payment options
+            soon. <br>In
+            the meantime,
+            please note that produce can only be reserved and payment is upon pick up.</h5>
+    </div>
+
 
     <!-- Section 3 Images of produce and button links -->
 
-    <!-- Section 4 Modals -->
+    <section id="produce">
+        <div class="row" style="padding-bottom: 50px;">
+            <!-- First Produce -->
+
+            <div class="col-md-4 mt-4 text-center">
+                <img src="./Images/Tomatoes.jpg" alt="Tomatoes" width="400px" height="400px"
+                    class="img-fluid img-thumbnail" />
+                <h2 class="text-light">Tomatoes 100g</h2>
+                <button class="btn btn-lg btn-warning text-white" data-target="#Produce1" data-toggle="modal">
+                    View details
+                </button>
+            </div>
+
+            <!-- Second Produce -->
+            <div class="col-md-4 mt-4 text-center">
+                <img src="./Images/Tatashe.jpg" alt="Tatashe" width="400px" height="400px"
+                    class="img-fluid img-thumbnail" />
+                <h2 class="text-light">Tatashe 100g</h2>
+                <button class="btn btn-lg btn-warning text-white" data-target="#Produce2" data-toggle="modal">
+                    View details
+                </button>
+            </div>
+
+            <!-- Third Produce -->
+            <div class="col-md-4 mt-4 text-center">
+                <img src="./Images/Onions.jpg" alt="Tatashe" width="400px" height="400px"
+                    class="img-fluid img-thumbnail" />
+                <h2 class="text-light">Onions 100g</h2>
+                <button class="btn btn-lg btn-warning text-white" data-target="#Produce3" data-toggle="modal">
+                    View details
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 5 Modals -->
     <!-- Tomato modal -->
-    <!-- Spinach modal  -->
+    <div class="modal fade" id="Produce1" tabindex="-1" role="dialog" aria-labelledby="Produce1modal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Tomatoes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"> &times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="./Images/Tomatoes.jpg" alt="Tomatos" width="400px" height="400px"
+                        class="img-fluid Produce1IMG" />
+                    <h2 class="Produce1TITLE"
+                        style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 30px; position: relative; left: 8px;">
+                        Fresh Juicy Tomatoes</h2>
+                    <div class="row ml-3">
+
+                        <small
+                            style="font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;position: relative; right: 8px;">
+                            Hand picked fresh tomatoes</small>
+                        <hr />
+                        <h3 style="position:relative; right: 25px; color: #497d2c;">Cost: <span
+                                class="display-5 produce1Price">N5000</span></h3>
+                    </div>
+
+                    <h5
+                        style="font-size: 30px;font-family: Verdana, Geneva, Tahoma, sans-serif;position: relative; left: 8px;">
+                        Produce Details
+                        <small>
+                            <p class="text-muted lead"
+                                style="font-size: 15px; padding-top: 5px; font-family:Verdana, Geneva, Tahoma, sans-serif">
+                                Our tomatoes are handpicked... Please note that one 100g basket equals 10 tomatoes.ipsum
+                                dolor, sit amet consectetur adipisicing elit. Quas,
+                                mollitia labore.
+                                Animi minima labore ab magni eum. Facere impedit, possimus odit eum officiis
+                                voluptate repellat dolores inventore odio, tenetur laborum ea quam ut, fugit
+                                beatae ducimus architecto voluptas quibusdam voluptatibus!</p>
+                        </small>
+                    </h5>
+
+
+                    <div class="modal-footer">
+                        <button class="btn btn-dark btn-lg" data-dismiss="modal">Back to Home</button>
+                        <a href="./tomatCart.html" class="btn btn-primary btn-lg reserveButton"
+                            data-dismiss="modal">Reserve</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Tatashe modal  -->
+    <div class="modal fade" id="Produce2" tabindex="-1" role="dialog" aria-labelledby="Produce2modal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Tatashe</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"> &times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="./Images/Tatashe.jpg" alt="Tatashe" width="400px" height="400px"
+                        class="img-fluid Produce2IMG" />
+                    <h2 class="Produce2TITLE"
+                        style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 30px; position: relative; left: 8px;">
+                        Fiery Hot Tatashe</h2>
+                    <div class="row ml-3">
+
+                        <small
+                            style="font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;position: relative; right: 8px;">
+                            Hand picked fresh tatashe</small>
+                        <hr />
+                        <h3 style="position:relative; right: 25px; color:#497d2c;">Cost: <span
+                                class="display-5 produce2Price">N4000</span></h3>
+                    </div>
+
+                    <h5
+                        style="font-size: 30px;font-family: Verdana, Geneva, Tahoma, sans-serif;position: relative; left: 8px;">
+                        Produce Details
+                        <small>
+                            <p class="text-muted lead"
+                                style="font-size: 15px; padding-top: 5px; font-family:Verdana, Geneva, Tahoma, sans-serif">
+                                Our tomatoes are handpicked... Please note that one 100g basket equals 10
+                                tomatoes.ipsum
+                                dolor, sit amet consectetur adipisicing elit. Quas,
+                                mollitia labore.
+                                Animi minima labore ab magni eum. Facere impedit, possimus odit eum officiis
+                                voluptate repellat dolores inventore odio, tenetur laborum ea quam ut, fugit
+                                beatae ducimus architecto voluptas quibusdam voluptatibus!</p>
+                        </small>
+                    </h5>
+
+
+                    <div class="modal-footer">
+                        <button class="btn btn-dark btn-lg" data-dismiss="modal">Back to Home</button>
+                        <button class="btn btn-primary btn-lg reserveButton" data-dismiss="modal">Reserve</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of tatashe modal -->
+
+
     <!-- Onion modal  -->
 
+    <div class="modal fade" id="Produce3" tabindex="-1" role="dialog" aria-labelledby="Produce3modal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Onions</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"> &times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="./Images/Onions.jpg" alt="Onions" width="400px" height="400px"
+                        class="img-fluid Produce3IMG" />
+                    <h2 class="Produce3TITLE"
+                        style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 30px; position: relative; left: 8px;">
+                        Sweet Red Onions</h2>
+                    <div class="row ml-3">
+
+                        <small
+                            style="font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;position: relative; right: 8px;">
+                            Delicious Red Onions</small>
+                        <hr />
+                        <h3 style="position:relative; right: 25px; color: #497d2c;">Cost: <span
+                                class="display-5 produce3Price">N6000</span></h3>
+                    </div>
+
+                    <h5
+                        style="font-size: 30px;font-family: Verdana, Geneva, Tahoma, sans-serif;position: relative; left: 8px;">
+                        Produce Details
+                        <small>
+                            <p class="text-muted lead"
+                                style="font-size: 15px; padding-top: 5px; font-family:Verdana, Geneva, Tahoma, sans-serif">
+                                Our onions... Please note that one 100g basket equals 10 onions ipsum dolor,
+                                sit
+                                amet consectetur adipisicing elit. Quas, mollitia
+                                labore.
+                                Animi minima labore ab magni eum. Facere impedit, possimus odit eum officiis
+                                voluptate repellat dolores inventore odio, tenetur laborum ea quam ut, fugit
+                                beatae ducimus architecto voluptas quibusdam voluptatibus!</p>
+                        </small>
+                    </h5>
 
 
-
-
-
-
-
-
-
-
-
+                    <div class="modal-footer">
+                        <button class="btn btn-dark btn-lg" data-dismiss="modal">Back to Home</button>
+                        <button class="btn btn-primary btn-lg reserveButton" data-dismiss="modal">Reserve</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
     <!-- End of modal and end of online page -->
-
-
 
     <!-- My Javascript -->
 
